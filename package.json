@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "@finsweet/ts-utils": "^0.37.1",
-    "pnpm": "^7.17.1"
+    "pnpm": "^7.17.1",
+    "swiper": "^8.4.5"
   }
 }
