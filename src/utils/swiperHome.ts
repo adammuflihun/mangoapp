@@ -1,4 +1,4 @@
-import Swiper from 'swiper/bundle';
+import Swiper from 'swiper';
 import 'swiper/css/bundle';
 
 export const swiperHome = () => {
@@ -16,4 +16,6 @@ export const swiperHome = () => {
     },
   });
   //installation swiper
+
+  console.log(swiper);
 };
