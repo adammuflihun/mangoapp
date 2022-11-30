@@ -5,9 +5,9 @@ export const swiperHome = () => {
   //installation swiper
   const swiper = new Swiper('.swiper', {
     loop: true,
-    slidesPerView: 2.5,
-    centeredSlides: true,
-    spaceBetween: 10,
+    slidesPerView: 1.5,
+    centeredSlides: 1,
+    spaceBetween: 30,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
