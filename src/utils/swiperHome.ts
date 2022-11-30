@@ -9,12 +9,12 @@ export const swiperHome = () => {
     centeredSlides: 1,
     spaceBetween: 30,
     navigation: {
-      nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next',
     },
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
   });
   //installation swiper
 
