@@ -1,7 +1,6 @@
-import { greetUser } from '$utils/greet';
+import { swiperHome } from '$utils/swiperHome';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
+  swiperHome();
 });
