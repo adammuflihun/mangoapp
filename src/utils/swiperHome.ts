@@ -7,14 +7,18 @@ export const swiperHome = () => {
     loop: true,
     slidesPerView: 2.5,
     centeredSlides: true,
-    spaceBetween: 30,
-    navigation: {
-      prevEl: '.swiper-button-prev',
-      nextEl: '.swiper-button-next',
+    autoplay: {
+      delay: 2000,
     },
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      draggable: true,
+    spaceBetween: 25,
+    navigation: {
+      prevEl: '.swiper-button-prev.prev-swipe',
+      nextEl: '.swiper-button-next.next-swipe',
+    },
+
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
     },
   });
   //installation swiper
