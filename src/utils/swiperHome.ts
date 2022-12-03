@@ -6,11 +6,13 @@ export const swiperHome = () => {
   const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 2.5,
-    centeredSlides: true,
+    centeredSlides: 1,
+    centerInsufficientSlides: 1,
+    centeredSlidesBounds: 1,
     autoplay: {
       delay: 2000,
     },
-    spaceBetween: 25,
+
     navigation: {
       prevEl: '.swiper-button-prev.prev-swipe',
       nextEl: '.swiper-button-next.next-swipe',
@@ -19,6 +21,46 @@ export const swiperHome = () => {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        // slidesPerView: 1,
+        slidesPerView: 1,
+        centeredSlides: true,
+        centerInsufficientSlides: 1,
+        centeredSlidesBounds: 1,
+
+        autoplay: false,
+
+        // loop: false,
+      },
+      // when window width is >= 480px
+      480: {
+        // slidesPerView: 1,
+        slidesPerView: 1,
+
+        autoplay: false,
+        // loop: false,
+
+        centeredSlides: true,
+
+        centerInsufficientSlides: 1,
+        centeredSlidesBounds: 1,
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 1.2,
+        centeredSlides: true,
+        centerInsufficientSlides: true,
+        centeredSlidesBounds: true,
+      },
+      980: {
+        slidesPerView: 2.2,
+        centeredSlides: true,
+        centerInsufficientSlides: true,
+        centeredSlidesBounds: true,
+      },
     },
   });
   //installation swiper
