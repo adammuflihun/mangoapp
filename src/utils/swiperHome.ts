@@ -26,7 +26,7 @@ export const swiperHome = () => {
       // when window width is >= 320px
       320: {
         // slidesPerView: 1,
-        slidesPerView: 1,
+        slidesPerView: 1.2,
         centeredSlides: true,
         centerInsufficientSlides: 1,
         centeredSlidesBounds: 1,
@@ -37,11 +37,9 @@ export const swiperHome = () => {
       },
       // when window width is >= 480px
       480: {
-        // slidesPerView: 1,
-        slidesPerView: 1,
+        slidesPerView: 1.2,
 
         autoplay: false,
-        // loop: false,
 
         centeredSlides: true,
 
