@@ -53,6 +53,8 @@
   },
   "dependencies": {
     "@finsweet/ts-utils": "^0.37.1",
+    "@splidejs/splide": "^4.1.4",
+    "jquery": "^3.6.1",
     "pnpm": "^7.17.1",
     "swiper": "^8.4.5"
   }
