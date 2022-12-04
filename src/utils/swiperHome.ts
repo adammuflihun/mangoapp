@@ -13,7 +13,7 @@ export const swiperslide = () => {
     watchOverflow: true,
     centeredSlides: true,
     autoplay: {
-      delay: 2000,
+      delay: 3000,
     },
 
     navigation: {
