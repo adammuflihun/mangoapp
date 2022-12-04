@@ -1,0 +1,73 @@
+/* Swiper pagination */
+.swiper-pagination {
+  right: 0;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  height: 0.3rem;
+  border-radius: 0;
+  width: 50%;
+  background-color: white;
+}
+/* Swiper pagination */
+
+/* margin Next and Prev */
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 5vw;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 5vw;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: '';
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-next:after {
+  content: '';
+}
+
+.swiper-button-next.next-swipe,
+.swiper-button-prev.prev-swipe {
+  top: 40%;
+  bottom: 0;
+}
+
+/* margin Next and Prev */
+
+/* General Swiper */
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0;
+}
+
+.swiper-slide.swiper-slide-active {
+  opacity: 1;
+}
+.swiper-slide {
+  opacity: 0.5;
+}
+
+.swiper {
+  padding: 2rem 0 4rem 0;
+}
+
+/* General Swiper */
+
+/* Navigation Top Navbar Padding */
+@media screen and (max-width: 990px) {
+  .navmenu {
+    padding-top: 5.5rem;
+  }
+  .grid-mega-menu {
+    padding-top: 4rem;
+  }
+}

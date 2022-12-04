@@ -1,9 +1,8 @@
-import '@splidejs/splide/css';
-import '@splidejs/splide/css/core';
-
-import { splideSlide } from '$utils/splideSlide';
+import { swiperslide } from '$utils/swiperHome';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  splideSlide();
+  swiperslide();
 });
+
+$('body').append('<link rel="stylesheet" type="text/css" href="{url}">');
