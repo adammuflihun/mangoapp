@@ -1,4 +1,7 @@
 import Swiper from 'swiper/bundle';
+import styles from 'swiper/css/bundle';
+import styles from 'src/styles/swiper';
+
 
 // import 'swiper/css';
 
