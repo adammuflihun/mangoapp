@@ -7,6 +7,4 @@ export const tabCustom = () => {
   });
 
   $('.text-block-dropdown').text(tabText);
-
-  //   $('.text-block-dropdown').text(textTab);
 };
