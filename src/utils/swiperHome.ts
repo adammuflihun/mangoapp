@@ -8,7 +8,7 @@ import styles from 'src/styles/swiper';
 export const swiperslide = () => {
   // const swiper = new Swiper(...);
 
-  console.log("anjay");
+  console.log("ancol");
 
 
   const swiper = new Swiper('.swiper', {
@@ -65,4 +65,8 @@ export const swiperslide = () => {
       },
     },
   });
+
+  // const swiper = new Swiper(...);
+
+  $('.swiper-button-next.next-swipe').click();
 };
