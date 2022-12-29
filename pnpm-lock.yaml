@@ -7,6 +7,7 @@ specifiers:
   '@finsweet/ts-utils': ^0.37.1
   '@finsweet/tsconfig': ^1.1.0
   '@playwright/test': ^1.28.1
+  '@splidejs/splide': ^4.1.4
   '@trivago/prettier-plugin-sort-imports': ^4.0.0
   '@types/jquery': ^3.5.14
   '@typescript-eslint/eslint-plugin': ^5.44.0
@@ -16,6 +17,7 @@ specifiers:
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
+  jquery: ^3.6.3
   pnpm: ^7.17.1
   prettier: ^2.8.0
   swiper: ^8.4.5
@@ -23,6 +25,8 @@ specifiers:
 
 dependencies:
   '@finsweet/ts-utils': 0.37.1
+  '@splidejs/splide': 4.1.4
+  jquery: 3.6.3
   pnpm: 7.17.1
   swiper: 8.4.5
 
@@ -650,6 +654,10 @@ packages:
       '@types/node': 18.11.9
       playwright-core: 1.28.1
     dev: true
+
+  /@splidejs/splide/4.1.4:
+    resolution: {integrity: sha512-5I30evTJcAJQXt6vJ26g2xEkG+l1nXcpEw4xpKh0/FWQ8ozmAeTbtniVtVmz2sH1Es3vgfC4SS8B2X4o5JMptA==}
+    dev: false
 
   /@trivago/prettier-plugin-sort-imports/4.0.0_prettier@2.8.0:
     resolution: {integrity: sha512-Tyuk5ZY4a0e2MNFLdluQO9F6d1awFQYXVVujEPFfvKPPXz8DADNHzz73NMhwCSXGSuGGZcA/rKOyZBrxVNMxaA==}
@@ -2088,6 +2096,10 @@ packages:
   /javascript-natural-sort/0.7.1:
     resolution: {integrity: sha1-+eIwPUUH9tdDVac2ZNFED7Wg71k=}
     dev: true
+
+  /jquery/3.6.3:
+    resolution: {integrity: sha512-bZ5Sy3YzKo9Fyc8wH2iIQK4JImJ6R0GWI9kL1/k7Z91ZBNgkRXE6U0JfHIizZbort8ZunhSI3jw9I6253ahKfg==}
+    dev: false
 
   /js-sdsl/4.2.0:
     resolution: {integrity: sha512-dyBIzQBDkCqCu+0upx25Y2jGdbTGxE9fshMsCdK0ViOongpV+n5tXRcZY9v7CaVQ79AGS9KA1KHtojxiM7aXSQ==}
