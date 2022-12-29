@@ -8,7 +8,7 @@ import styles from 'src/styles/swiper';
 export const swiperslide = () => {
   // const swiper = new Swiper(...);
 
-  console.log("ancol");
+  // console.log("ancol");
 
 
   const swiper = new Swiper('.swiper', {
