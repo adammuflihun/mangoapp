@@ -8,6 +8,9 @@ import styles from 'src/styles/swiper';
 export const swiperslide = () => {
   // const swiper = new Swiper(...);
 
+  console.log("anjay");
+
+
   const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 2.5,
@@ -16,7 +19,7 @@ export const swiperslide = () => {
     watchOverflow: true,
     centeredSlides: true,
     autoplay: {
-      delay: 3000,
+      delay: 5000,
     },
 
     navigation: {
