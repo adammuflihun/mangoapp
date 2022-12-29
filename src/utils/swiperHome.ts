@@ -68,5 +68,6 @@ export const swiperslide = () => {
 
   // const swiper = new Swiper(...);
 
-  $('.swiper-button-next.next-swipe').click();
+  
+  
 };

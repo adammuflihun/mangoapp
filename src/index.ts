@@ -8,3 +8,6 @@ window.Webflow.push(() => {
 });
 
 // $('body').append('<link rel="stylesheet" type="text/css" href="http://localhost:3000/index.css">');
+$(document).ready(function () {
+  $('.swiper-button-next.next-swipe').click();
+});
