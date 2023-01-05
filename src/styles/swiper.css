@@ -76,3 +76,7 @@
     padding-top: 4rem;
   }
 }
+
+.a-expand-card-people.is-active .button-close-bg {
+  display: block;
+}

@@ -78,9 +78,10 @@ export const aboutUs = () => {
     });
   });
 
-  $('.button-close').on('click', function () {
+  $('.button-close , .button-close-bg').on('click', function () {
     $('.a-expand-card-people').removeClass('is-active');
     $('.card-people').removeClass('is-active');
   });
+
   //cms sync
 };
