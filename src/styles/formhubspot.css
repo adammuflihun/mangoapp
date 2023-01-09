@@ -1,8 +1,4 @@
-.hs-custom-style
-  fieldset
-  input:not([type='image']):not([type='submit']):not([type='button']):not([type='radio']):not(
-    [type='checkbox']
-  ):not([type='file']) {
+.hs-input {
   min-height: 3rem !important;
   margin-bottom: 0.75rem !important;
   padding-top: 0.5rem !important;
