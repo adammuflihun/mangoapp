@@ -80,7 +80,7 @@ export const aboutUs = () => {
 
   $('.button-close , .button-close-bg').on('click', function () {
     $('.a-expand-card-people').removeClass('is-active');
-    $('.card-people').removeClass('is-active');
+    $('.wrapper-card-people').removeClass('is-active');
   });
 
   //cms sync
