@@ -5,7 +5,7 @@ const buildDirectory = 'dist';
 const production = process.env.NODE_ENV === 'production';
 
 // Config entrypoint files
-const entryPoints = ['src/index.ts', 'src/hubspot.ts'];
+const entryPoints = ['src/index.ts', 'src/hubspot.ts', 'src/swiper.ts'];
 
 /**
  * Default Settings
