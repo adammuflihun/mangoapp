@@ -15,10 +15,10 @@ $(document).ready(function () {
   $('.swiper-button-next.next-swipe').click();
 });
 
-$(function () {
-  setTimeout(function () {
-    $('.hbspt-form').append(
-      '<link rel="stylesheet" type="text/css" href="https://mangoapp.vercel.app/dist/hubspot.css">'
-    );
-  }, 2500);
-});
+// $(function () {
+//   setTimeout(function () {
+//     $('.hbspt-form').append(
+//       '<link rel="stylesheet" type="text/css" href="https://mangoapp.vercel.app/dist/hubspot.css">'
+//     );
+//   }, 2500);
+// });
