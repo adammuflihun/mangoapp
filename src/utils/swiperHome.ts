@@ -3,13 +3,8 @@ import styles from 'swiper/css/bundle';
 import styles from 'src/styles/swiper';
 
 
-// import 'swiper/css';
-
 export const swiperslide = () => {
   // const swiper = new Swiper(...);
-
-  // console.log("ancol");
-
 
   const swiper = new Swiper('.swiper', {
     loop: true,
