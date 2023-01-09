@@ -18,7 +18,7 @@ $(document).ready(function () {
 $(function () {
   setTimeout(function () {
     $('.hbspt-form').append(
-      '<link rel="stylesheet" type="text/css" href="http://localhost:3000/hubspot.css">'
+      '<link rel="stylesheet" type="text/css" href="https://mangoapp.vercel.app/dist/hubspot.css">'
     );
   }, 2500);
 });
