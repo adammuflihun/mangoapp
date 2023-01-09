@@ -14,3 +14,7 @@ aboutUs();
 $(document).ready(function () {
   $('.swiper-button-next.next-swipe').click();
 });
+
+$('body')
+  .append('<link rel="stylesheet" type="text/css" href="http://localhost:3000/hubspot.css">')
+  .delay(2000);
