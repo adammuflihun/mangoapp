@@ -20,5 +20,5 @@ $(function () {
     $('.hbspt-form').append(
       '<link rel="stylesheet" type="text/css" href="http://localhost:3000/hubspot.css">'
     );
-  }, 1500);
+  }, 2500);
 });
