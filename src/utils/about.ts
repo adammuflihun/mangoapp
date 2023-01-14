@@ -78,9 +78,16 @@ export const aboutUs = () => {
     });
   });
 
-  $('.button-close , .button-close-bg, .f-wrapper-bg').on('click', function () {
+  $('.button-close , .button-close-bg, ').on('click', function () {
     $('.wrapper-card-people').removeClass('is-active');
     $('.wrapper-people-active').removeClass('is-active');
+  });
+
+  $('.r-read-now').on('click', function () {
+    $('.f-col-item').addClass('is-active');
+  });
+  $('.f-wrapper-bg').on('click', function () {
+    $('.f-col-item').addClass('is-active');
   });
 
   //cms sync
