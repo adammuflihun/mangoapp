@@ -87,7 +87,7 @@ export const aboutUs = () => {
     $('.f-col-item').addClass('is-active');
   });
   $('.f-wrapper-bg').on('click', function () {
-    $('.f-col-item').addClass('is-active');
+    $('.f-col-item').removeClass('is-active');
   });
 
   //cms sync
